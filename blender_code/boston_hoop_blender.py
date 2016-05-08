@@ -1,4 +1,4 @@
-# boston_hoop_blender_clean.py
+# boston_hoop_blender.py
 #
 # By Filip Strand and Jakob Arnoldsson
 # (used with Blender 2.76) 
