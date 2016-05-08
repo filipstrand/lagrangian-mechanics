@@ -1,4 +1,4 @@
-# double_pendulum_blender_clean.py
+# double_pendulum_blender.py
 # 
 # By Filip Strand and Jakob Arnoldsson
 # (used with Blender 2.76) 
