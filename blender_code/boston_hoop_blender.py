@@ -45,7 +45,7 @@ k1 = 300
 g = 9.82
 
 # Read the 'maple_data.txt' file
-dat=open("/Users/filipstrand/Desktop/maple_data.txt","r")
+dat=open("/path/to/maple_data.txt","r")
 t=[]
 q1=[]
 q2=[]
