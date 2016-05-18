@@ -12,9 +12,9 @@ dependsTime(q1, q2, q3, q4, u1, u2, u3, u4):
 # ------------------Position vectors-------------------
 r_O := (N &ev [0,0,0]):
 r_A := (N &ev [l0+q4,0,0]):
-r_B := (N &ev [l0+q4,0,0]) &++ (A &ev [0, 0, -l1/2]):
-r_C := (N &ev [l0+q4,0,0]) &++ (A &ev [0, 0, -l1]):
-r_D := (N &ev [l0+q4,0,0]) &++ (A &ev [0, 0, -l1]) &++ (B &ev [0, 0, -(l2 + q3)]):
+r_B := ((N &ev [l0+q4,0,0]) &++ (A &ev [0, 0, -l1/2])):
+r_C := ((N &ev [l0+q4,0,0]) &++ (A &ev [0, 0, -l1])):
+r_D := ((N &ev [l0+q4,0,0]) &++ (A &ev [0, 0, -l1]) &++ (B &ev [0, 0, -(l2 + q3)])):
 
 # ----------------Velocity vectors --------------------
 v_B := simplify(N &fdt r_B):
@@ -34,37 +34,43 @@ T_ball_translation := (1/2)*m2*(v_D &o v_D):
 T := T_rod_rotation + T_rod_translation + T_ball_translation:
 
 # ---------Construct the Generalized forces------------
-F1 := N &ev [-k1*q4,0,0]:
-F2 := N &ev [0,0,-m1*g]:
+F1 := N &to (N &ev [-k1*q4,0,0]):
+F2 := N &to (N &ev [0,0,-m1*g]):
 F3 := N &to (B &ev [0,0,-k2*q3]):
 F4 := N &to (B &ev [0,0,k2*q3]):
-F5 := N &ev [0,0,-m2*g]:
+F5 := N &to (N &ev [0,0,-m2*g]):
 
-Q1 := F1 &o [map(diff,r_A[1],q1),r_A[2]] +
-      F2 &o [map(diff,r_B[1],q1),r_B[2]] +
-      F3 &o [map(diff,r_C[1],q1),r_C[2]] +
-      F4 &o [map(diff,r_D[1],q1),r_D[2]] +
-      F5 &o [map(diff,r_D[1],q1),r_D[2]] -
+r_O := N &to r_O:
+r_A := N &to r_A:
+r_B := N &to r_B:
+r_C := N &to r_C:
+r_D := N &to r_D:
+
+Q1 := F1 &o [map(diff,r_A[1],q1),N] +
+      F2 &o [map(diff,r_B[1],q1),N] +
+      F3 &o [map(diff,r_C[1],q1),N] +
+      F4 &o [map(diff,r_D[1],q1),N] +
+      F5 &o [map(diff,r_D[1],q1),N] -
       C1*q1t:
 
-Q2 := F1 &o [map(diff,r_A[1],q2),r_A[2]] +
-      F2 &o [map(diff,r_B[1],q2),r_B[2]] +
-      F3 &o [map(diff,r_C[1],q2),r_C[2]] +
-      F4 &o [map(diff,r_D[1],q2),r_D[2]] +
-      F5 &o [map(diff,r_D[1],q2),r_D[2]] -
+Q2 := F1 &o [map(diff,r_A[1],q2),N] +
+      F2 &o [map(diff,r_B[1],q2),N] +
+      F3 &o [map(diff,r_C[1],q2),N] +
+      F4 &o [map(diff,r_D[1],q2),N] +
+      F5 &o [map(diff,r_D[1],q2),N] -
       C2*q2t:
 
-Q3 := F1 &o [map(diff,r_A[1],q3),r_A[2]] +
-      F2 &o [map(diff,r_B[1],q3),r_B[2]] +
-      F3 &o [map(diff,r_C[1],q3),r_C[2]] +
-      F4 &o [map(diff,r_D[1],q3),r_D[2]] +
-      F5 &o [map(diff,r_D[1],q3),r_D[2]]:
+Q3 := F1 &o [map(diff,r_A[1],q3),N] +
+      F2 &o [map(diff,r_B[1],q3),N] +
+      F3 &o [map(diff,r_C[1],q3),N] +
+      F4 &o [map(diff,r_D[1],q3),N] +
+      F5 &o [map(diff,r_D[1],q3),N]:
 
-Q4 := F1 &o [map(diff,r_A[1],q4),r_A[2]] +
-      F2 &o [map(diff,r_B[1],q4),r_B[2]] +
-      F3 &o [map(diff,r_C[1],q4),r_C[2]] +
-      F4 &o [map(diff,r_D[1],q4),r_D[2]] +
-      F5 &o [map(diff,r_D[1],q4),r_D[2]]:
+Q4 := F1 &o [map(diff,r_A[1],q4),N] +
+      F2 &o [map(diff,r_B[1],q4),N] +
+      F3 &o [map(diff,r_C[1],q4),N] +
+      F4 &o [map(diff,r_D[1],q4),N] +
+      F5 &o [map(diff,r_D[1],q4),N]:
 
 # ------Construct the Euler-Lagrange equations---------
 T := subs(q1t = u1, q2t = u2, q3t = u3, q4t = u4, T):
@@ -138,8 +144,8 @@ ff := dsolve(eqst union Initcond, {q1(t),
                                    u3(t),
                                    u4(t)}, type = numeric, maxfun = 0):
 
-numberOfPoints:= 1800:
-integrationTime:= 60:
+numberOfPoints:= 300:
+integrationTime:= 10:
 _plot := odeplot(ff,
                  [[t,q1(t)],
                   [t,q2(t)],
