@@ -23,7 +23,7 @@ In the thesis we worked with the following two mechanical systems:
 * [Maple code (no friction)](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code/double_pendulum.mpl)
 * [Maple code (friction)](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code/double_pendulum_friction.mpl)
 * [Blender code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/blender_code/double_pendulum_blender.py)
-* [Animation videos](http://filipstrand.com/)
+* [Animation videos](https://www.youtube.com/watch?v=vDLLvorw2F4)
 
 ![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/Double_pendulum.png)
 
