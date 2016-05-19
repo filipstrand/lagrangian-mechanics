@@ -1,3 +1,5 @@
+# double_pendulum.mpl
+#
 # By Filip Strand and Jakob Arnoldsson
 # May 2016
 # (used with Maple 2015 and Sophia for Maple R6 - 13 june 2000) 
