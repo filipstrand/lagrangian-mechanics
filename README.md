@@ -10,9 +10,9 @@ In the thesis we worked with the following two mechanical systems:
 
 ## Boston Hoop
 
-*[Maple code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code/boston_hoop.mpl)
-*[Blender code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/blender_code/boston_hoop_blender.py)
-*[Animation videos](http://filipstrand.com/)
+* [Maple code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code/boston_hoop.mpl)
+* [Blender code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/blender_code/boston_hoop_blender.py)
+* [Animation videos](http://filipstrand.com/)
 
 ![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/Boston_hoop.png)
 
