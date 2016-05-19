@@ -1,6 +1,7 @@
 # double_pendulum_blender.py
 # 
 # By Filip Strand and Jakob Arnoldsson
+# May 2016
 # (used with Blender 2.76) 
 # 
 # This script is most easily run by
