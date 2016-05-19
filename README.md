@@ -1,17 +1,15 @@
 # lagrangian-mechanics
 
+Here we present our Maple (Sophia) and Blender code used to model, solve and animate the equations of motions 
+[THE PAPER CAN BE FOUND AT ....]
 
-Write something short here...
 
-
-and add a picutre
-
+## Boston Hoop
 
 ![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/Boston_hoop.png)
 
 
 
-
-and another picture
+## Double pendulum with dual springs
 
 ![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/Double_pendulum.png)
