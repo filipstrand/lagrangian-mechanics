@@ -3,7 +3,7 @@
 Here we present the code used in our [Bachelor's thesis](http://filipstrand.com/) on Lagrangian mechanics.  
 The code consists of two independent parts: 
 
-* [Maple code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code) (Written with the [Sophia code](http://www.mech.kth.se/~nap/F_fk/sophia/) plug-in for Maple to model and solve the equations of motion for the systems)
+* [Maple code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code) (Written with the [Sophia](http://www.mech.kth.se/~nap/F_fk/sophia/) plugin for Maple to model and solve the equations of motion for the systems)
 * [Blender code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/blender_code) (Python code for animating the systems in Blender)
 
 In the thesis we worked with the following two mechanical systems:   
