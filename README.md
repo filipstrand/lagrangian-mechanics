@@ -14,7 +14,7 @@ In the thesis we worked with the following two mechanical systems:
 * [Blender code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/blender_code/boston_hoop_blender.py)
 * [Animation videos](https://www.youtube.com/watch?v=cKMxSKV5acQ)
 
-![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/Boston_hoop.png)
+![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/boston_hoop.jpg)
 
 
 
