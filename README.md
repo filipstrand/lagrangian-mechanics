@@ -1,7 +1,8 @@
 # lagrangian-mechanics
 
-Here we present our Maple (Sophia) and Blender code used to model, solve and animate the equations of motions 
-[THE PAPER CAN BE FOUND AT ....]
+Here we present the code used in our [Bachelor's thesis](http://filipstrand.com/) on Lagrangian mechanics.  
+The code consists of two independent parts: Modeling and animating. 
+
 
 
 ## Boston Hoop
