@@ -31,3 +31,10 @@ In the thesis we worked with the following two mechanical systems:
 [Animation videos](http://filipstrand.com/)
 
 ![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/Double_pendulum.png)
+
+https://www.youtube.com/watch?v=6dBMRCDFg5s
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6dBMRCDFg5s/0.jpg)](https://www.youtube.com/watch?v=6dBMRCDFg5s)
+
+
+
