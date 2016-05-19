@@ -1,4 +1,4 @@
-# lagrangian-mechanics
+# Lagrangian mechanics
 
 Here we present the code used in our [Bachelor's thesis](http://filipstrand.com/) on Lagrangian mechanics.  
 The code consists of two independent parts: 
