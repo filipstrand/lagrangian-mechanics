@@ -1,7 +1,12 @@
 # lagrangian-mechanics
 
 Here we present the code used in our [Bachelor's thesis](http://filipstrand.com/) on Lagrangian mechanics.  
-The code consists of two independent parts: Modeling and animating. 
+The code consists of two independent parts: 
+
+* [Maple Code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code) (for modeling and solving the equations of motion)
+* Python code (for animating the systems in Blender)
+
+Modeling and animating. 
 
 
 
