@@ -6,7 +6,8 @@ Here we present our Maple (Sophia) and Blender code used to model, solve and ani
 
 ## Boston Hoop
 
-[a link](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code/boston_hoop.mpl)(#pookie)
+[Maple Code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code/boston_hoop.mpl)
+[Blender Code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/blender_code/boston_hoop_blender.py)
 
 ![alt tag](https://raw.githubusercontent.com/filipstrand/lagrangian-mechanics/master/images/Boston_hoop.png)
 
