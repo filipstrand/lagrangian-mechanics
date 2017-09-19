@@ -1,6 +1,7 @@
 # Lagrangian mechanics
 
-Here we present the code used in our [Bachelor's thesis (13.5 MB)](https://github.com/filipstrand/lagrangian-mechanics/blob/master/thesis/bachelors_thesis.pdf) on Lagrangian mechanics.  
+Here we present the code used in our [Bachelor's thesis (13.5 MB)](https://github.com/filipstrand/lagrangian-mechanics/blob/master/thesis/bachelors_thesis.pdf) on Lagrangian mechanics.  Done in colaboration with [@jakobarnoldsson](https://github.com/jakobarnoldsson/).  
+
 The code consists of two independent parts: 
 
 * [Maple code](https://github.com/filipstrand/lagrangian-mechanics/blob/master/maple_code) (Written with the [Sophia](http://www.mech.kth.se/~nap/F_fk/sophia/) plugin for [Maple](https://www.maplesoft.com/products/Maple/) to model and solve the equations of motion for the systems)
